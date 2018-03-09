@@ -1,1 +1,172 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+
+
+    <!-- Link RapidApi -->
+    <script src="https://s3.amazonaws.com/rapidapi-prod-fe_static/rapidapi.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+
+    <script src="./scripts.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Mingus.GG</a>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Search</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Champions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Wiki</a>
+            </li>
+
+            <form class="form-inline" action="/action_page.php">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Search</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username">
+                </div>
+            </form>
+
+        </ul>
+    </nav>
+
+    <div class="jumbotron text-center top-jumbotron">
+        <h1 class="header-large">Mingus.GG</h1>
+    </div>
+
+    <!--Card group-->
+    <div class="card-group">
+
+        <!--Card-->
+        <div class="card mb-4">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="img-fluid" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg" alt="Card image cap">
+                <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+            <!--Card image-->
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Title-->
+                <h4 class="card-title">Ekko</h4>
+
+                <h5>The Boy Who Shattered Time</h5>
+
+                <!--Text-->
+                <p class="card-text">"A prodigy from the rough streets of Zaun, Ekko manipulates time to twist any situation to his advantage.
+                    Using his own invention, the Zero Drive, he explores the branching possibilities of reality to craft
+                    the perfect moment. Though he revels in this..."</p>
+
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <button type="button" class="btn btn-primary btn-md">Read more</button>
+            </div>
+            <!--Card content-->
+
+        </div>
+        <!--Card-->
+
+        <!--Card-->
+        <div class="card mb-4">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="img-fluid" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg" alt="Card image cap">
+                <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+            <!--Card image-->
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Title-->
+                <h4 class="card-title">Aatrox</h4>
+
+                <h5>The Darkin Blade</h5>
+
+                <!--Text-->
+                <p class="card-text">"One of the ancient darkin, Aatrox was once a peerless swordmaster who reveled in the bloody chaos of the
+                    battlefield. Trapped within his own blade by the magic of his foes, he waited out the millennia for a
+                    suitable host to wield him—this mortal warrior..."</p>
+
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <button type="button" class="btn btn-primary btn-md">Read more</button>
+            </div>
+            <!--Card content-->
+
+        </div>
+        <!--Card-->
+
+        <!--Card-->
+        <div class="card mb-4">
+
+            <!--Card image-->
+            <div class="view overlay">
+                <img class="img-fluid" src="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Taliyah_0.jpg" alt="Card image cap">
+                <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                </a>
+            </div>
+            <!--Card image-->
+
+            <!--Card content-->
+            <div class="card-body">
+
+                <!--Title-->
+                <h4 class="card-title">Aatrox</h4>
+
+                <h5>The Stoneweaver</h5>
+
+                <!--Text-->
+                <p class="card-text">"Taliyah is a nomadic mage from Shurima, torn between teenage wonder and adult responsibility. She has crossed
+                    nearly all of Valoran on a journey to learn the true nature of her growing powers, though more recently
+                    she has returned to protect her tribe..."</p>
+
+                <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                <button type="button" class="btn btn-primary btn-md">Read more</button>
+            </div>
+            <!--Card content-->
+
+        </div>
+        <!--Card-->
+
+    </div>
+    <!--Card group-->
+
+</body>
+
+</html>
